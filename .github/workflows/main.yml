@@ -37,8 +37,7 @@ jobs:
                        +ntfs                     \
                        +force_dex_wqhd           \
                        +morosound                \
-                       +kali                     \   
-                       +dtb                      \
+                       +kali                     \
           2>&1 | tee config.info
 
       - name: Install gcc-aarch64-linux-gnu
